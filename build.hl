@@ -1,0 +1,13 @@
+// cargo
+// rustc
+// curl
+// git
+
+|| H#
+
+> bytes build --release
+;; build slint shell >
+;; > cd shells/slint && cargo build --release
+
+;; build kotlin shell >
+;; > cd shells/kotlin && gradle build
