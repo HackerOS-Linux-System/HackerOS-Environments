@@ -1,1 +1,11 @@
+[package]
+-> name => HackerOS-Environments
+-> version => 0.1.0
+-> using => 0.4
+-> authors => HackerOS Team <hackeros068@gmail.com>
+-> description => Srodowiska graficzne (powloki/DE) HackerOS. Powloka Slint zyje w shells/slint i jest budowana/lintowana przez `virus` (patrz [workspace] nizej); domyslny kompozytor docelowy to labwc.
 
+[workspace]
+-> members => [shells/slint]
+
+[dependencies]
